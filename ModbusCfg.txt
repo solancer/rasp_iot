@@ -1,0 +1,978 @@
+Register(s)      Com.Obj. Name           Dim  Type       Len Dec   Min    Max Group
+============================================================================================
+40001            8235     ID BIN              Binary#1    2   -      -      - Binary CU     
+40002            9107     (N/A)                                                             
+40003            9108     (N/A)                                                             
+40004            9109     (N/A)                                                             
+40005            9110     (N/A)                                                             
+40006            9111     (N/A)                                                             
+40007            9112     (N/A)                                                             
+40008            9113     (N/A)                                                             
+40009            9114     (N/A)                                                             
+40010            8239     ID BOUT             Binary#2    2   -      -      - Binary CU     
+40011            8213     Battery Volt   V    Integer     2   1      0    400 Analog CU     
+40012            10124    CPU Temp       °C   Integer     2   1   -200    800 Analog CU     
+40013            9155     Remote Speed   RPM  Integer     2   0      0   2000 Analog CU     
+40014            9156     Not used       -    Integer     2   0      0      0 Analog CU     
+40015            9157     Not used       -    Integer     2   0      0      0 Analog CU     
+40016            9158     Suction        Kpa  Integer     2   0   -100    500 Analog CU     
+40017            9159     ID-AIN 5       -    Integer     2   0      0      0 Analog CU     
+40018            9160     Discharge TX   Kpa  Integer     2   0      0   2500 Analog CU     
+40019            9161     Drive End Bear °C   Integer     2   0      0    120 Analog CU     
+40020            9162     Non Drive Bear °C   Integer     2   0      0    120 Analog CU     
+40021            9163     (N/A)                                                             
+40022            9164     (N/A)                                                             
+40023            9165     (N/A)                                                             
+40024            9166     (N/A)                                                             
+40025            9167     (N/A)                                                             
+40026            9168     (N/A)                                                             
+40027            9169     (N/A)                                                             
+40028            9170     (N/A)                                                             
+40029            9171     (N/A)                                                             
+40030            9172     (N/A)                                                             
+40031            9173     (N/A)                                                             
+40032            9174     (N/A)                                                             
+40033            9175     (N/A)                                                             
+40034            9176     (N/A)                                                             
+40035            9177     (N/A)                                                             
+40036            9178     (N/A)                                                             
+40037            9179     (N/A)                                                             
+40038            9180     (N/A)                                                             
+40039            9181     (N/A)                                                             
+40040            9182     (N/A)                                                             
+40041            9183     (N/A)                                                             
+40042            9184     (N/A)                                                             
+40043            9185     (N/A)                                                             
+40044            9186     (N/A)                                                             
+40045            9187     (N/A)                                                             
+40046            9188     (N/A)                                                             
+40047            9189     (N/A)                                                             
+40048            9190     (N/A)                                                             
+40049            9191     (N/A)                                                             
+40050            9192     (N/A)                                                             
+40051            9193     (N/A)                                                             
+40052            9194     (N/A)                                                             
+40053            10153    Speed          RPM  Integer     2   0      0   3000 ECU           
+40054            10154    CoolantTemp    °C   Integer     2   0    -40    210 ECU           
+40055            10155    OilPress       bar  Integer     2   2      0   1000 ECU           
+40056            10156    AP Position    %    Integer     2   0      0    100 ECU           
+40057            10157    Load           %    Integer     2   0      0    125 ECU           
+40058            10158    ActTorque      %    Integer     2   0      0    125 ECU           
+40059            10159    FuelRate       L/h  Integer     2   1      0   9990 ECU           
+40060            10160    BoostPress     bar  Integer     2   2      0    500 ECU           
+40061            10161    ECU-AIN 9      -    Integer     2   0 -32768  32767 ECU           
+40062            10162    ECU-AIN 10     -    Integer     2   0 -32768  32767 ECU           
+40063            10163    ECU-AIN 11     -    Integer     2   0 -32768  32767 ECU           
+40064            10164    ECU-AIN 12     -    Integer     2   0 -32768  32767 ECU           
+40065            10165    ECU-AIN 13     -    Integer     2   0 -32768  32767 ECU           
+40066            10166    ECU-AIN 14     -    Integer     2   0 -32768  32767 ECU           
+40067            10167    ECU-AIN 15     -    Integer     2   0 -32768  32767 ECU           
+40068            10168    ECU-AIN 16     -    Integer     2   0 -32768  32767 ECU           
+40069            10169    ECU BIN1            Binary#3    1   -      -      - ECU           
+40070            10170    ECU BIN2            Binary#4    1   -      -      - ECU           
+40071            10171    ECU BOUT1           Binary#5    1   -      -      - ECU           
+40072            10172    ECU BOUT2           Binary#6    1   -      -      - ECU           
+40073-40074 ( 2) 10173    TotalFuel      L    Integer     4   0      -      - ECU           
+40075-40076 ( 2) 10174    EngHours       h    Integer     4   0      -      - ECU           
+40077            10182    ECU StrList1        List#1      1   -    439    439 (No group)    
+40078            10183    ECU StrList2        List#2      1   -    441    441 (No group)    
+40079            9143     LogBout 1           Binary#7    2   -      -      - Log Bout      
+40080            9144     LogBout 2           Binary#8    2   -      -      - Log Bout      
+40081            9145     LogBout 3           Binary#9    2   -      -      - Log Bout      
+40082            10207    (N/A)                                                             
+40083            10208    (N/A)                                                             
+40084            10209    (N/A)                                                             
+40085            10210    (N/A)                                                             
+40086-40101 (16) 10011    (N/A)                                                             
+40102-40107 ( 6) 0        (N/A)                                                             
+40108            10904    SCM Freq1           Unsigned    2   0      0   8000 SCM unit      
+40109            10905    SCM Freq2           Unsigned    2   0      0   8000 SCM unit      
+40110            8393     SW Version          Unsigned    1   1      0    255 Info          
+40111            8707     SW Branch           Unsigned    1   0      0    255 Info          
+40112-40113 ( 2) 9090     PasswordDecode      Unsigned    4   0      -      - Info          
+40114            9244     Engine State        List#3      1   -    191    207 Info          
+40115-40116 ( 2) 10130    (N/A)                                                             
+40117            9574     Mode ID             List#4      1   -    214    215 (No group)    
+40118            9887     Mode ID             List#4      1   -    214    215 Info          
+40119            10135    Mode Loc            List#5      1   -    218    219 Basic Values  
+40120            10424    PLC-BOUT 1          Binary#10   1   -      -      - PLC           
+40121            10425    PLC-BOUT 2          Binary#11   1   -      -      - PLC           
+40122            10426    (N/A)                                                             
+40123            10427    (N/A)                                                             
+40124            10428    (N/A)                                                             
+40125            10429    (N/A)                                                             
+40126            10430    (N/A)                                                             
+40127            10431    (N/A)                                                             
+40128            10360    PLC-AOUT 1     -    Integer     2   0 -32768  32767 PLC           
+40129            10361    PLC-AOUT 2     -    Integer     2   0 -32768  32767 PLC           
+40130            10362    SUC RPM        RPM  Integer     2   0 -32768  32767 PLC           
+40131            10363    DIS RPM        RPM  Integer     2   0 -32768  32767 PLC           
+40132            10364    PLC-AOUT 5     RPM  Integer     2   0 -32768  32767 PLC           
+40133            10365    PLC-AOUT 6     RPM  Integer     2   0 -32768  32767 PLC           
+40134            10366    PLC-AOUT 7     RPM  Integer     2   0 -32768  32767 PLC           
+40135            10367    Auto Speed 1-4 RPM  Integer     2   0 -32768  32767 PLC           
+40136            10368    Idle/Nominal   RPM  Integer     2   0 -32768  32767 PLC           
+40137            10369    PLC-AOUT 10    RPM  Integer     2   0 -32768  32767 PLC           
+40138            10370    MAN CD         RPM  Integer     2   0 -32768  32767 PLC           
+40139            10371    MAN CD RAMP    RPM  Integer     2   0 -32768  32767 PLC           
+40140            10372    Speed Control  RPM  Integer     2   0 -32768  32767 PLC           
+40141            10373    (N/A)                                                             
+40142            10374    (N/A)                                                             
+40143            10375    (N/A)                                                             
+40144            10504    (N/A)                                                             
+40145            10505    (N/A)                                                             
+40146            10506    (N/A)                                                             
+40147            10507    (N/A)                                                             
+40148            8480     (N/A)                                                             
+40149            10040    Timer Text          List#6      1   -    221    228 Info          
+40150            8955     Timer Val      s    Unsigned    2   0      0  65535 Info          
+40151            10137    Speed Request  %    Integer     2   1      0   1000 Engine Values 
+40152            8546     CAN16               Binary      2   -      -      - Info          
+40153            8827     (N/A)                                                             
+40154            10000    ThrottlePos    %    Unsigned    2   1      0   1000 Loadsharing   
+40155            10136    RQSP Aver      %    Integer     2   1      0   1000 Loadsharing   
+40156            10181    RQSP Ramp      %    Integer     2   1      0   1000 Loadsharing   
+40157            8522     (N/A)                                                             
+40158            8521     (N/A)                                                             
+40159            10123    Engine RPM     RPM  Integer     2   0      0  8253* Basic Values  
+40160            9620     T Cyl Aver     °C   Integer     2   0 -32768  32767 Engine Values 
+40161            10526    T Cyl Max      °C   Integer     2   0 -32768  32767 Engine Values 
+40162            10527    T Cyl Min      °C   Integer     2   0 -32768  32767 Engine Values 
+40163            10226    ECU DiagSource      List#7      1   -    236    240 Info          
+40164-40165 ( 2) 10232    ECU FC              Unsigned    4   0      -      - ECU diag      
+40166            10233    ECU FMI             Unsigned    1   0      0    255 ECU diag      
+40167            10234    ECU OC              Unsigned    1   0      0    255 ECU diag      
+40168            10268    Oil Press      bar  Integer     2   2      0   1000 Engine Values 
+40169            11569    Oil Temp       °C   Integer     2   0      0    150 Engine Values 
+40170            10267    Cool Temp      °C   Integer     2   0    -40    210 Engine Values 
+40171            11570    Fuel Level     %    Integer     2   0      0    100 Engine Values 
+40172            9125     (N/A)                                                             
+40173            9126     (N/A)                                                             
+40174            9127     (N/A)                                                             
+40175            9128     (N/A)                                                             
+40176            9129     (N/A)                                                             
+40177            9130     (N/A)                                                             
+40178            9131     (N/A)                                                             
+40179            9132     (N/A)                                                             
+40180-40203 (24) 0        (N/A)                                                             
+40204            9146     LogBout 4           Binary#12   2   -      -      - Log Bout      
+40205            10916    ECU Alarms 1        Binary      2   -      -      - Info          
+40206            10917    ECU Alarms 2        Binary      2   -      -      - Info          
+40207            10918    ECU Alarms 3        Binary      2   -      -      - Info          
+40208            10919    ECU Alarms 4        Binary      2   -      -      - Info          
+40209            10627    RemoteControl       Binary#13   2   -      -      - Log Bout      
+40210            12153    (N/A)                                                             
+40211            12154    (N/A)                                                             
+40212            11401    EngRPMfiltered RPM  Unsigned    2   0      0  8253* Basic Values  
+40213            9654     Diag Code           List#8      1   -    242    249 Info          
+40214            11873    MID                 Unsigned    1   0      0    255 Info          
+40215            8214     OilPress       bar  Integer     2   2      0   1000 Invisible     
+40216            8215     CoolTemp       °C   Integer     2   0    -40    210 Invisible     
+40217            10432    (N/A)                                                             
+40218            10433    (N/A)                                                             
+40219            10434    (N/A)                                                             
+40220-40221 ( 2) 11388    ST                  Binary      4   -      -      - Invisible     
+43001            10440    (N/A)                                                             
+43002            10441    (N/A)                                                             
+43003            10442    (N/A)                                                             
+43004            10443    (N/A)                                                             
+43005            10444    FlowFailDly    s    Integer     2   1 -32768  32767 PLC           
+43006            10445    High Speed     RPM  Integer     2   0 -32768  32767 PLC           
+43007            10446    Flow Mom On    RPM  Integer     2   0 -32768  32767 PLC           
+43008            10447    Suction Press  Kpa  Integer     2   0 -32768  32767 PLC           
+43009            10448    Discharge Pres Kpa  Integer     2   0 -32768  32767 PLC           
+43010            10449    PID GAIN       %    Integer     2   2 -10000  10000 PLC           
+43011            10450    PID INT        %    Integer     2   2      0  10000 PLC           
+43012            10451    PID DER        %    Integer     2   2      0  10000 PLC           
+43013            10452    MAN CD RAMP    RPM  Integer     2   0 -32768  32767 PLC           
+43014            10453    AUTO RAMP RATE RPM  Integer     2   0 -32768  32767 PLC           
+43015            10454    AUTO SPEED     RPM  Integer     2   0 -32768  32767 PLC           
+43016            10455    (N/A)                                                             
+43017            10456    (N/A)                                                             
+43018            10457    (N/A)                                                             
+43019            10458    (N/A)                                                             
+43020            10459    (N/A)                                                             
+43021            10460    (N/A)                                                             
+43022            10461    (N/A)                                                             
+43023            10462    (N/A)                                                             
+43024            10463    (N/A)                                                             
+43025            10464    (N/A)                                                             
+43026            10465    (N/A)                                                             
+43027            10466    (N/A)                                                             
+43028            10467    (N/A)                                                             
+43029            10468    (N/A)                                                             
+43030            10469    (N/A)                                                             
+43031            10470    (N/A)                                                             
+43032            10471    (N/A)                                                             
+43033            9242     (N/A)                                                             
+43034-43035 ( 2) 8206     RunHours       h    Integer     4   0      -      - Statistics    
+43036            8207     NumSuccStarts       Unsigned    2   0      0  65535 Statistics    
+43037            10149    NumUnscStarts       Unsigned    2   0      0  65535 Statistics    
+43038            9648     Service Time   h    Unsigned    2   0      0  65535 Statistics    
+43039-43040 ( 2) 10908    SCM Imp1            Unsigned    4   0      -      - SCM unit      
+43041-43042 ( 2) 10909    SCM Imp2            Unsigned    4   0      -      - SCM unit      
+43043-43050 ( 8) 8637     Engine Name         String0    16   -      -      - Basic Settings
+43051-43058 ( 8) 10337    (N/A)                                                             
+43059            8315     Mode ID             List#4      1   -    214    215 Basic Settings
+43060            10122    Mode Loc            List#5      1   -    218    219 (No group)    
+43061            8252     Gear Teeth          Unsigned    2   0      1    500 Basic Settings
+43062            10353    ECU Diag            List#9      1   -     45     46 Basic Settings
+43063            9594     AcallCH1-Type       List#10     1   -     73     77 Act. Calls/SMS
+43064            9595     AcallCH2-Type       List#10     1   -     73     77 Act. Calls/SMS
+43065            9596     AcallCH3-Type       List#10     1   -     73     77 Act. Calls/SMS
+43066-43081 (16) 9597     AcallCH1-Addr       String0    32   -      -      - Act. Calls/SMS
+43082-43097 (16) 9598     AcallCH2-Addr       String0    32   -      -      - Act. Calls/SMS
+43098-43113 (16) 9599     AcallCH3-Addr       String0    32   -      -      - Act. Calls/SMS
+43114            8482     Warning Call        List#11     1   -     71     72 Act. Calls/SMS
+43115            8484     Shut Down Call      List#11     1   -     71     72 Act. Calls/SMS
+43116            8485     Cool Down Call      List#11     1   -     71     72 Act. Calls/SMS
+43117            10121    LightTimeOff   min  Unsigned    1   0      0    250 Basic Settings
+43118            8264     Horn Timeout   s    Unsigned    2   0      0    600 Engine Protect
+43119            10125    (N/A)                                                             
+43120            10126    (N/A)                                                             
+43121            10127    (N/A)                                                             
+43122            10128    (N/A)                                                             
+43123            10134    (N/A)                                                             
+43124            10129    ForceBlock Del s    Unsigned    2   0      0     60 Engine Protect
+43125            10023    RunOnlyBlkDel1 s    Unsigned    2   0      0     60 Engine Protect
+43126            10024    RunOnlyBlkDel2 s    Unsigned    2   0      0     60 Engine Protect
+43127            10025    RunOnlyBlkDel3 s    Unsigned    2   0      0     60 Engine Protect
+43128            10131    BinInp Delay 1 s    Unsigned    2   0      0     60 Engine Protect
+43129            10132    BinInp Delay 2 s    Unsigned    2   0      0     60 Engine Protect
+43130            10133    BinInp Delay 3 s    Unsigned    2   0      0     60 Engine Protect
+43131            9259     Drive End B L1 °C   Integer     2   0      0    120 Protections   
+43132            9262     Drive End B L2 °C   Integer     2   0      0    120 Protections   
+43133            9265     Discharge L1   Kpa  Integer     2   0      0   2500 Protections   
+43134            9268     Discharge L2   Kpa  Integer     2   0      0   2500 Protections   
+43135            9271     Non Drive B L1 °C   Integer     2   0      0    120 Protections   
+43136            9274     Non Drive B L2 °C   Integer     2   0      0    120 Protections   
+43137            9277     (N/A)                                                             
+43138            9280     (N/A)                                                             
+43139            9283     (N/A)                                                             
+43140            9286     (N/A)                                                             
+43141            9289     (N/A)                                                             
+43142            9292     (N/A)                                                             
+43143            9295     (N/A)                                                             
+43144            9298     (N/A)                                                             
+43145            9301     (N/A)                                                             
+43146            9304     (N/A)                                                             
+43147            9307     (N/A)                                                             
+43148            9310     (N/A)                                                             
+43149            9313     (N/A)                                                             
+43150            9316     (N/A)                                                             
+43151            9319     (N/A)                                                             
+43152            9322     (N/A)                                                             
+43153            9325     (N/A)                                                             
+43154            9328     (N/A)                                                             
+43155            9331     (N/A)                                                             
+43156            9334     (N/A)                                                             
+43157            9337     (N/A)                                                             
+43158            9340     (N/A)                                                             
+43159            9343     (N/A)                                                             
+43160            9346     (N/A)                                                             
+43161            9349     (N/A)                                                             
+43162            9352     (N/A)                                                             
+43163            9355     (N/A)                                                             
+43164            9358     (N/A)                                                             
+43165            9361     (N/A)                                                             
+43166            9364     (N/A)                                                             
+43167            9367     (N/A)                                                             
+43168            9370     (N/A)                                                             
+43169            9373     (N/A)                                                             
+43170            9376     (N/A)                                                             
+43171            9379     (N/A)                                                             
+43172            9382     (N/A)                                                             
+43173            9385     (N/A)                                                             
+43174            9388     (N/A)                                                             
+43175            9391     (N/A)                                                             
+43176            9394     (N/A)                                                             
+43177            9397     (N/A)                                                             
+43178            9400     (N/A)                                                             
+43179            9403     (N/A)                                                             
+43180            9406     (N/A)                                                             
+43181            9409     (N/A)                                                             
+43182            9412     (N/A)                                                             
+43183            9415     (N/A)                                                             
+43184            9418     (N/A)                                                             
+43185            9421     (N/A)                                                             
+43186            9424     (N/A)                                                             
+43187            9427     (N/A)                                                             
+43188            9430     (N/A)                                                             
+43189            9433     (N/A)                                                             
+43190            9436     (N/A)                                                             
+43191            9439     (N/A)                                                             
+43192            9442     (N/A)                                                             
+43193            9445     (N/A)                                                             
+43194            9448     (N/A)                                                             
+43195            9451     (N/A)                                                             
+43196            9454     (N/A)                                                             
+43197            9457     (N/A)                                                             
+43198            9460     (N/A)                                                             
+43199            9463     (N/A)                                                             
+43200            9466     (N/A)                                                             
+43201            9469     (N/A)                                                             
+43202            9472     (N/A)                                                             
+43203            9475     (N/A)                                                             
+43204            9478     (N/A)                                                             
+43205            9481     (N/A)                                                             
+43206            9484     (N/A)                                                             
+43207            9487     (N/A)                                                             
+43208            9490     (N/A)                                                             
+43209            9493     (N/A)                                                             
+43210            9496     (N/A)                                                             
+43211            9260     (N/A)                                                             
+43212            9263     (N/A)                                                             
+43213            9266     (N/A)                                                             
+43214            9269     (N/A)                                                             
+43215            9272     (N/A)                                                             
+43216            9275     (N/A)                                                             
+43217            9278     (N/A)                                                             
+43218            9281     (N/A)                                                             
+43219            9284     (N/A)                                                             
+43220            9287     (N/A)                                                             
+43221            9290     (N/A)                                                             
+43222            9293     (N/A)                                                             
+43223            9296     (N/A)                                                             
+43224            9299     (N/A)                                                             
+43225            9302     (N/A)                                                             
+43226            9305     (N/A)                                                             
+43227            9308     (N/A)                                                             
+43228            9311     (N/A)                                                             
+43229            9314     (N/A)                                                             
+43230            9317     (N/A)                                                             
+43231            9320     (N/A)                                                             
+43232            9323     (N/A)                                                             
+43233            9326     (N/A)                                                             
+43234            9329     (N/A)                                                             
+43235            9332     (N/A)                                                             
+43236            9335     (N/A)                                                             
+43237            9338     (N/A)                                                             
+43238            9341     (N/A)                                                             
+43239            9344     (N/A)                                                             
+43240            9347     (N/A)                                                             
+43241            9350     (N/A)                                                             
+43242            9353     (N/A)                                                             
+43243            9356     (N/A)                                                             
+43244            9359     (N/A)                                                             
+43245            9362     (N/A)                                                             
+43246            9365     (N/A)                                                             
+43247            9368     (N/A)                                                             
+43248            9371     (N/A)                                                             
+43249            9374     (N/A)                                                             
+43250            9377     (N/A)                                                             
+43251            9380     (N/A)                                                             
+43252            9383     (N/A)                                                             
+43253            9386     (N/A)                                                             
+43254            9389     (N/A)                                                             
+43255            9392     (N/A)                                                             
+43256            9395     (N/A)                                                             
+43257            9398     (N/A)                                                             
+43258            9401     (N/A)                                                             
+43259            9404     (N/A)                                                             
+43260            9407     (N/A)                                                             
+43261            9410     (N/A)                                                             
+43262            9413     (N/A)                                                             
+43263            9416     (N/A)                                                             
+43264            9419     (N/A)                                                             
+43265            9422     (N/A)                                                             
+43266            9425     (N/A)                                                             
+43267            9428     (N/A)                                                             
+43268            9431     (N/A)                                                             
+43269            9434     (N/A)                                                             
+43270            9437     (N/A)                                                             
+43271            9440     (N/A)                                                             
+43272            9443     (N/A)                                                             
+43273            9446     (N/A)                                                             
+43274            9449     (N/A)                                                             
+43275            9452     (N/A)                                                             
+43276            9455     (N/A)                                                             
+43277            9458     (N/A)                                                             
+43278            9461     (N/A)                                                             
+43279            9464     (N/A)                                                             
+43280            9467     (N/A)                                                             
+43281            9470     (N/A)                                                             
+43282            9473     (N/A)                                                             
+43283            9476     (N/A)                                                             
+43284            9479     (N/A)                                                             
+43285            9482     (N/A)                                                             
+43286            9485     (N/A)                                                             
+43287            9488     (N/A)                                                             
+43288            9491     (N/A)                                                             
+43289            9494     (N/A)                                                             
+43290            9497     (N/A)                                                             
+43291            9261     Drive End  Del s    Unsigned    2   0      0   3600 Protections   
+43292            9264     Discharge Del  s    Unsigned    2   0      0   3600 Protections   
+43293            9267     Non Drive  Del s    Unsigned    2   0      0   3600 Protections   
+43294            9270     (N/A)                                                             
+43295            9273     (N/A)                                                             
+43296            9276     (N/A)                                                             
+43297            9279     (N/A)                                                             
+43298            9282     (N/A)                                                             
+43299            9285     (N/A)                                                             
+43300            9288     (N/A)                                                             
+43301            9291     (N/A)                                                             
+43302            9294     (N/A)                                                             
+43303            9297     (N/A)                                                             
+43304            9300     (N/A)                                                             
+43305            9303     (N/A)                                                             
+43306            9306     (N/A)                                                             
+43307            9309     (N/A)                                                             
+43308            9312     (N/A)                                                             
+43309            9315     (N/A)                                                             
+43310            9318     (N/A)                                                             
+43311            9321     (N/A)                                                             
+43312            9324     (N/A)                                                             
+43313            9327     (N/A)                                                             
+43314            9330     (N/A)                                                             
+43315            9333     (N/A)                                                             
+43316            9336     (N/A)                                                             
+43317            9339     (N/A)                                                             
+43318            9342     (N/A)                                                             
+43319            9345     (N/A)                                                             
+43320            9348     (N/A)                                                             
+43321            9351     (N/A)                                                             
+43322            9354     (N/A)                                                             
+43323            9357     (N/A)                                                             
+43324            9360     (N/A)                                                             
+43325            9363     (N/A)                                                             
+43326            9366     (N/A)                                                             
+43327            9369     (N/A)                                                             
+43328            9372     (N/A)                                                             
+43329            9375     (N/A)                                                             
+43330            9378     (N/A)                                                             
+43331            9381     (N/A)                                                             
+43332            9384     (N/A)                                                             
+43333            9387     (N/A)                                                             
+43334            9390     (N/A)                                                             
+43335            9393     (N/A)                                                             
+43336            9396     (N/A)                                                             
+43337            9399     (N/A)                                                             
+43338            9402     (N/A)                                                             
+43339            9405     (N/A)                                                             
+43340            9408     (N/A)                                                             
+43341            9411     (N/A)                                                             
+43342            9414     (N/A)                                                             
+43343            9417     (N/A)                                                             
+43344            9420     (N/A)                                                             
+43345            9423     (N/A)                                                             
+43346            9426     (N/A)                                                             
+43347            9429     (N/A)                                                             
+43348            9432     (N/A)                                                             
+43349            9435     (N/A)                                                             
+43350            9438     (N/A)                                                             
+43351            9441     (N/A)                                                             
+43352            9444     (N/A)                                                             
+43353            9447     (N/A)                                                             
+43354            9450     (N/A)                                                             
+43355            9453     (N/A)                                                             
+43356            9456     (N/A)                                                             
+43357            9459     (N/A)                                                             
+43358            9462     (N/A)                                                             
+43359            9465     (N/A)                                                             
+43360            9468     (N/A)                                                             
+43361            9471     (N/A)                                                             
+43362            9474     (N/A)                                                             
+43363            9477     (N/A)                                                             
+43364            9480     (N/A)                                                             
+43365            9483     (N/A)                                                             
+43366            9486     (N/A)                                                             
+43367            9489     (N/A)                                                             
+43368            9492     (N/A)                                                             
+43369            9495     (N/A)                                                             
+43370            9498     (N/A)                                                             
+43371            10902    FreqRate1           Unsigned    2   0      0    500 SCM unit      
+43372            10903    FreqRate2           Unsigned    2   0      0    500 SCM unit      
+43373            10906    TransferRate1       Unsigned    2   0      0    500 SCM unit      
+43374            10907    TransferRate2       Unsigned    2   0      0    500 SCM unit      
+43375            8253     Nominal RPM    RPM  Unsigned    2   0     30  10000 Basic Settings
+43376            9095     Starting RPM   RPM  Unsigned    2   0     30  8253* Engine Params 
+43377            9681     Starting POil  bar  Integer     2   2      0   1000 Engine Params 
+43378            10138    StartPCoolant  Bar  Integer     2   1      0    100 Engine Params 
+43379            8394     Prestart Time  s    Unsigned    2   0      0   6000 Engine Params 
+43380            8256     MaxCrank Time  s    Unsigned    1   0      0    200 Engine Params 
+43381            8257     CrnkFail Pause s    Unsigned    1   0      0    200 Engine Params 
+43382            8255     Crank Attempts      Unsigned    1   0      1    200 Engine Params 
+43383            9946     Idle RPM       RPM  Unsigned    2   0  9095*  8253* Engine Params 
+43384            10010    Idle Offset    %    Unsigned    2   1      0   1000 Engine Params 
+43385            9097     Idle Time      s    Unsigned    2   0      0    600 Engine Params 
+43386            8780     PrelubrTime    s    Unsigned    2   0      0    600 Engine Params 
+43387            8781     PrelubrPause   min  Unsigned    2   0      1   4000 Engine Params 
+43388            9815     Stop Time      s    Unsigned    2   0      0    600 Engine Params 
+43389            8258     Cooling Time   s    Unsigned    2   0      0    600 Engine Params 
+43390            8662     AfterCoolTime  s    Unsigned    2   0      0   3600 Engine Params 
+43391            9683     D+ function         List#12     1   -     64     66 Engine Params 
+43392            9100     Fuel Solenoid       List#13     1   -     67     68 Engine Params 
+43393            9984     BI Speed Ramp  %/s  Integer     2   1      0   1000 Engine Params 
+43394            10008    FireAlarmSpeed %    Unsigned    2   1      0   1000 Engine Params 
+43395            8263     Overspeed      %    Unsigned    2   0      0    200 Engine Protect
+43396            10139    MinLoadSpeed   RPM  Unsigned    2   0      0  8253* Engine Protect
+43397            8383     Batt Volt Del  s    Unsigned    2   0      0    600 Engine Protect
+43398            8387     Batt <V        V    Integer     2   1     80  9587* Engine Protect
+43399            9587     Batt >V        V    Integer     2   1  8387*    400 Engine Protect
+43400            9950     OverloadSpLim  %    Unsigned    2   1      0   1000 Engine Protect
+43401            9947     Overload Del   s    Unsigned    2   0      0    600 Engine Protect
+43402            10140    (N/A)                                                             
+43403            10141    (N/A)                                                             
+43404            10142    (N/A)                                                             
+43405            10143    (N/A)                                                             
+43406            10150    (N/A)                                                             
+43407            10144    (N/A)                                                             
+43408            10145    (N/A)                                                             
+43409            10146    (N/A)                                                             
+43410            10147    (N/A)                                                             
+43411            10151    (N/A)                                                             
+43412            8659     Load Gain      %    Integer     2   1      0   2000 Loadsharing   
+43413            8713     Load Int       %    Integer     2   1      0   1000 Loadsharing   
+43414            10148    RQSP Ramp      %/s  Integer     2   0      0    100 Loadsharing   
+43415            9949     (N/A)                                                             
+43416            10096    (N/A)                                                             
+43417            10097    (N/A)                                                             
+43418            10099    Back Up Speed1 %    Unsigned    2   1      0   1000 Loadsharing   
+43419            10523    Back Up Speed2 %    Unsigned    2   1      0   1000 Loadsharing   
+43420            10524    Back Up Speed3 %    Unsigned    2   1      0   1000 Loadsharing   
+43421            10098    EnLocalSpeed        List#14     1   -     69     70 Engine Params 
+43422            9948     Local Speed    %    Unsigned    2   1      0   1000 Engine Params 
+43423            10102    (N/A)                                                             
+43424            9921     DetectOtherCAN      List#14     1   -     69     70 Loadsharing   
+43425            8979     Time Stamp Per min  Unsigned    1   0      0    240 Date/Time     
+43426-43427 ( 2) 10042    Timer ON            Time        3   -      -      - Basic Settings
+43428-43429 ( 2) 10199    Timer OFF           Time        3   -      -      - Basic Settings
+43430            10045    Timer Repeat        List#15     1   -     59     63 Basic Settings
+43431            10230    Governor Mode       List#16     1   -     39     41 Basic Settings
+43432            10231    (N/A)                                                             
+43433            10336    Idle/Nominal        List#17     1   -     42     44 Basic Settings
+43434            8431     AIN1 Offset         Integer     2   0 -32767  32767 Analog Inputs 
+43435            8407     AIN2 Offset         Integer     2   0 -32767  32767 Analog Inputs 
+43436            8467     AIN3 Offset         Integer     2   0 -32767  32767 Analog Inputs 
+43437            8793     AIN4 Offset         Integer     2   0 -32767  32767 Analog Inputs 
+43438            8794     AIN5 Offset         Integer     2   0 -32767  32767 Analog Inputs 
+43439            8795     AIN6 Offset         Integer     2   0 -32767  32767 Analog Inputs 
+43440            8796     AIN7 Offset         Integer     2   0 -32767  32767 Analog Inputs 
+43441            11599    AIN8 Offset         Integer     2   0 -32767  32767 Analog Inputs 
+43442            11327    (N/A)                                                             
+43443            8630     RunHoursSource      List#18     1   -     47     48 Basic Settings
+43444-43445 ( 2) 9040     DayCons        -    Unsigned    4   0      -      - Statistics    
+43446-43447 ( 2) 11335    (N/A)                                                             
+43448-43449 ( 2) 9817     TripCons       -    Unsigned    4   0      -      - Statistics    
+43450-43451 ( 2) 11329    (N/A)                                                             
+
+* - limit is defined by the value of the communication object of specified number
+
+
+43450-43451 ( 2) 11329    (N/A)                                                             
+======================================================================================
+List# Types Meaning
+======================================================================================
+
+--------------------------------------------------------------------------------------
+List#1
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  ECU-StrList1  
+
+--------------------------------------------------------------------------------------
+List#2
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  ECU-StrList2  
+
+--------------------------------------------------------------------------------------
+List#3
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  Init          
+    1  Ready         
+    2  NotReady      
+    3  Prestart      
+    4  Cranking      
+    5  Pause         
+    6  Starting      
+    7  Running       
+    8  Loaded        
+    9  Unloading     
+   10  Cooling       
+   11  Stop          
+   12  Shutdown      
+   13  Ventil        
+   14  EmergMan      
+   15  Cooldown      
+   16  LoadShar      
+
+--------------------------------------------------------------------------------------
+List#4
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  OFF           
+    1  RUN           
+
+--------------------------------------------------------------------------------------
+List#5
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0                
+    1  LOC           
+
+--------------------------------------------------------------------------------------
+List#6
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  No Timer      
+    1  Prestart      
+    2  Cranking      
+    3  Idle          
+    4  Cooling       
+    5  StopValve     
+    6  AfterCool     
+    7  Pause         
+
+--------------------------------------------------------------------------------------
+List#7
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  NONE          
+    1  J1939-DM1     
+    2  J1939-KWP     
+    3  J1587-DTC     
+    4  MODBUS        
+
+--------------------------------------------------------------------------------------
+List#8
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  ####          
+    1  J1939-DM1     
+    2  J1939-KWP2000 
+    3  J1587-PID     
+    4  J1587-SID     
+    5  J1587-PPID    
+    6  J1587-PSID    
+    7  MODBUS        
+
+--------------------------------------------------------------------------------------
+List#9
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  DISABLED      
+    1  ENABLED       
+
+--------------------------------------------------------------------------------------
+List#10
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  DISABLED      
+    1  DATA          
+    2  SMS           
+    3  E-MAIL        
+    4  EML-SMS       
+
+--------------------------------------------------------------------------------------
+List#11
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  DISABLED      
+    1  ENABLED       
+
+--------------------------------------------------------------------------------------
+List#12
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  DISABLED      
+    1  CHRFAIL       
+    2  ENABLED       
+
+--------------------------------------------------------------------------------------
+List#13
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  DIESEL        
+    1  GAS           
+
+--------------------------------------------------------------------------------------
+List#14
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  DISABLED      
+    1  ENABLED       
+
+--------------------------------------------------------------------------------------
+List#15
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  NEVER         
+    1  MON-FRI       
+    2  MON-SAT       
+    3  MON-SUN       
+    4  SAT-SUN       
+
+--------------------------------------------------------------------------------------
+List#16
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  ISOCHRON      
+    1  DROOP         
+    2  BIN.INPUT     
+
+--------------------------------------------------------------------------------------
+List#17
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  IDLE          
+    1  NOMINAL       
+    2  BIN.INPUT     
+
+--------------------------------------------------------------------------------------
+List#18
+
+Value  Name
+--------------------------------------------------------------------------------------
+    0  INTERNAL      
+    1  ECU           
+
+
+======================================================================================
+Binary# Types Meaning
+======================================================================================
+
+--------------------------------------------------------------------------------------
+Binary#1
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  Rem Start     
+  1  Anl Throttle  
+  2  Auto Throttle 
+  3  Emergency stop
+  4  Flow Fail Ipt 
+  5  Boost         
+  6  Discharge Pres
+  7  Idle Up       
+  8  Idle Down     
+  9  Rem Stop      
+ 10  High Speed    
+ 11  Suction On    
+ 12  Discharge On  
+ 13  Overflow RPM  
+--------------------------------------------------------------------------------------
+Binary#2
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  ECU PowerRelay
+  1  Starter       
+  2  Grease Timer  
+  3  Running       
+  4  Fault Light   
+  5  Engine running
+  6  Auto/Cooldown 
+  7  @ Rated Speed 
+  8  ID-BOUT 9     
+  9  Not Used      
+ 10  Not Used      
+ 11  Logical 1     
+ 12  Diagnostic Req
+ 13  Not Used      
+--------------------------------------------------------------------------------------
+Binary#3
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  ECU-BIN 1     
+  1  ECU-BIN 2     
+  2  ECU-BIN 3     
+  3  ECU-BIN 4     
+  4  ECU-BIN 5     
+  5  ECU-BIN 6     
+  6  ECU-BIN 7     
+  7  ECU-BIN 8     
+
+--------------------------------------------------------------------------------------
+Binary#4
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  ECU-BIN 9     
+  1  ECU-BIN 10    
+  2  ECU-BIN 11    
+  3  ECU-BIN 12    
+  4  ECU-BIN 13    
+  5  ECU-BIN 14    
+  6  ECU-BIN 15    
+  7  ECU-BIN 16    
+
+--------------------------------------------------------------------------------------
+Binary#5
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  Fuel Solenoid 
+  1  Idle/Nominal  
+  2  Logical 0     
+  3  Logical 0     
+  4  ECU-BOUT 5    
+  5  ECU-BOUT 6    
+  6  ECU-BOUT 7    
+  7  ECU-BOUT 8    
+
+--------------------------------------------------------------------------------------
+Binary#6
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  ECU-BOUT 9    
+  1  ECU-BOUT 10   
+  2  ECU-BOUT 11   
+  3  ECU-BOUT 12   
+  4  ECU-BOUT 13   
+  5  ECU-BOUT 14   
+  6  ECU-BOUT 15   
+  7  ECU-BOUT 16   
+
+--------------------------------------------------------------------------------------
+Binary#7
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  Horn          
+  1  Alarm         
+  2  Common Alarm  
+  3  Common Wrn    
+  4  Common Sd     
+  5  Common Cd     
+  6  Common Fls    
+  7  OFF Mode      
+  8  RUN Mode      
+  9  Not Used      
+ 10  Not Used      
+ 11  Not In LOC    
+ 12  In LOC        
+ 13  CPU Ready     
+ 14  Not Used      
+ 15  Idle/Nominal  
+
+--------------------------------------------------------------------------------------
+Binary#8
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  Starter       
+  1  Stop Solenoid 
+  2  Prelubrication
+  3  Prestart      
+  4  Ready To Start
+  5  Ready To Load 
+  6  Engine Running
+  7  Ignition      
+  8  Unload        
+  9  Cooling       
+ 10  Fuel Solenoid 
+ 11  Cooling Pump  
+ 12  CtrlHeartBeat 
+ 13  Close Load    
+ 14  Droop Sw      
+ 15  Not Used      
+
+--------------------------------------------------------------------------------------
+Binary#9
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  Stop Pulse    
+  1  Comm AIN Fail 
+  2  Comm BIN Fail 
+  3  Comm AOUT Fail
+  4  Comm BOUT Fail
+  5  Nominal/Idle  
+  6  Alarm Blink   
+  7  Nominal Sw    
+  8  Logical 0     
+  9  Logical 1     
+ 10  Operational   
+ 11  Timer Active  
+ 12  Alarm BlinkAct
+ 13  Common SdO    
+ 14  Not Used      
+--------------------------------------------------------------------------------------
+Binary#10
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  PLC-BOUT 1.1  
+  1  PLC-BOUT 1.2  
+  2  Remote Start  
+  3  Remote Stop   
+  4  Flow          
+  5  Flow Fault    
+  6  Flow Fault    
+  7  PLC-BOUT 1.8  
+
+--------------------------------------------------------------------------------------
+Binary#11
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  PLC-BOUT 2.1  
+  1  PLC-BOUT 2.2  
+  2  Idle/Nominal1 
+  3  PLC-BOUT 2.4  
+  4  PLC-BOUT 2.5  
+  5  PLC-BOUT 2.6  
+  6  PLC-BOUT 2.7  
+  7  PLC-BOUT 2.8  
+
+--------------------------------------------------------------------------------------
+Binary#12
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  RdyForRemStart
+  1  ECU PowerRelay
+  2  StartButtEcho 
+  3  StopButtEcho  
+  4  FltResButtEcho
+  5  HrnResButtEcho
+  6  ClutchButtEcho
+  7  ActLoadShar   
+  8  User Button 1 
+  9  User Button 2 
+ 10  User Button 3 
+ 11  User Button 4 
+ 12  User Button 5 
+ 13  ClutchBtToggle
+ 14  HrnResBtToggle
+--------------------------------------------------------------------------------------
+Binary#13
+
+Bit  Name
+--------------------------------------------------------------------------------------
+  0  RemoteControl1
+  1  RemoteControl2
+  2  RemoteControl3
+  3  RemoteControl4
+  4  RemoteControl5
+  5  RemoteControl6
+  6  RemoteControl7
+  7  RemoteControl8
+
+======================================================================================
+Table# Types Meaning
+======================================================================================
+
+
+

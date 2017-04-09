@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/pi/logger/comap
+exec python losant_pub.py --yaml "/home/pi/logger/projects/SOMESITE/losant.yaml"

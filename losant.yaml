@@ -1,0 +1,17 @@
+mqtt_hostname: "localhost"
+mqtt_port: 8883
+mqtt_tls: True
+mqtt_login: True
+# Linux box (Gateway) losant Device ID
+clientid: "SOMEHEX"
+# Linux box (Gateway) losant USERNAME
+user: "222c7SOMEHEX"
+# Linux box (Gateway) losant PASSWORD
+password: "bfe9a42SOMEHEEX"
+certfile: "/etc/mosquitto/ca_certificates/CA.crt"
+subscribe: "*"
+
+CHANNELS:
+# SOME PUMP/ENGINE Embedded controller lossant Device ID
+ - channel: "SOMESITE-pump-1"
+   topic: "losant/SOMeHEX(LOSANTPUMPID)/state"

@@ -1,0 +1,48 @@
+channel: Callide
+csv_header: /export/data/Callide/csv_header.txt
+csv_header_string: "'Date', 'Time','Logger','Asset','IP', 'Channel' ,'Battery Volt','CPU Temp','MANUAL SPEED','THROTTLE','SUCTION','DISCHARGE','FLOW METER','DRIVE END','NON DRIVE END','Engine State','Engine RPM','RunHours','NumSuccStarts','NumUnscStarts','CoolantTemp','EngOilPress','Load','Fuel','SCM Imp1'"
+logging:
+ version: 1
+ handlers:
+   console:
+     class : logging.StreamHandler
+     formatter: brief
+     level   : INFO
+     stream  : ext://sys.stdout
+   file1:
+     class: logging.handlers.TimedRotatingFileHandler
+     formatter: csv
+     level: INFO
+     filename: /export/data/Callide/Callide-1.log
+     when: D
+     interval: 1
+
+ formatters:
+   brief:
+     format: '%(message)s'
+   csv:
+     format: "%(asctime)s, %(name)s, %(message)s"
+     datefmt: '%Y-%m-%d, %H:%M:%S'
+
+ loggers:
+  datalogger-1:
+     level: INFO
+     handlers: [console,file1]
+
+publish:
+  publish_key: "pub-c-0c6SDKCKSDCSKJDCKdvsdvkdsv7219"
+  subscribe_key: "sub-c-5KSDJFSDHFIOWEFOIWDFIODJFIOSDFIO"
+
+devices:
+ - asset: "Callide-pump-1"
+   logger: "datalogger"
+   channel: "Callide-pump-1"
+   cycle: 10
+   class: Modbus
+   device_config: "/home/pi/logger/projects/Callide/QSK23CallideModbusCfg.TXT"
+   ipaddr: 10.0.100.102
+   unit: 1
+   registers: ["Battery Volt", "CPU Temp", "Remote Speed", "Suction", "Discharge TX", "Drive End Bear", "Non Drive Bear", "Speed", "CoolantTemp", "OilPress", "AP Position", "Load", "ActTorque", "FuelRate", "BoostPress", "TotalFuel", "EngHours", "Engine State", "Speed Request", "Engine RPM", "T Cyl Aver", "T Cyl Max", "T Cyl Min", "Oil Press", "Oil Temp", "Cool Temp", "Fuel Level", "EngRPMfiltered", "RunHours", "NumSuccStarts", "NumUnscStarts", "Service Time", "Gear Teeth", "Drive End B L1", "Drive End B L2", "Non Drive B L1", "Non Drive B L2", "LightTimeOff", "Nominal RPM", "Starting RPM", "Starting POil", "StartPCoolant", "Prestart Time", "MaxCrank Time", "CrnkFail Pause", "Crank Attempts", "Idle RPM", "Idle Time", "PrelubrTime", "Stop Time", "Cooling Time", "AfterCoolTime", "BI Speed Ramp", "Overspeed", "Batt <V", "Batt >V"]
+   registers_to_log: ["Battery Volt", "CPU Temp", "Remote Speed", "Suction", "Discharge TX", "Drive End Bear", "Non Drive Bear", "Speed", "CoolantTemp", "OilPress", "AP Position", "Load", "ActTorque", "FuelRate", "BoostPress", "TotalFuel", "EngHours", "Engine State", "Speed Request", "Engine RPM", "T Cyl Aver", "T Cyl Max", "T Cyl Min", "Oil Press", "Oil Temp", "Cool Temp", "Fuel Level", "EngRPMfiltered", "RunHours", "NumSuccStarts", "NumUnscStarts", "Service Time", "Gear Teeth", "Drive End B L1", "Drive End B L2", "Non Drive B L1", "Non Drive B L2", "LightTimeOff", "Nominal RPM", "Starting RPM", "Starting POil", "StartPCoolant", "Prestart Time", "MaxCrank Time", "CrnkFail Pause", "Crank Attempts", "Idle RPM", "Idle Time", "PrelubrTime", "Stop Time", "Cooling Time", "AfterCoolTime", "BI Speed Ramp", "Overspeed", "Batt <V", "Batt >V"]
+   publish: True
+   

@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /home/pi/logger/comap 
+exec /usr/bin/python collector.py /home/pi/logger/projects/SOMESITE/logger.yaml
